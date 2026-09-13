@@ -1,0 +1,14 @@
+{
+  "name": "@white/config",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "exports": {
+    "./tailwind-preset": "./tailwind-preset.js",
+    "./eslint-preset": "./eslint-preset.js",
+    "./eslint-next": "./eslint-next.js",
+    "./eslint-nestjs": "./eslint-nestjs.js",
+    "./tsconfig.base.json": "./tsconfig.base.json",
+    "./prettier": "./prettier.config.js"
+  }
+}
